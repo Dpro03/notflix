@@ -30,7 +30,7 @@ const Main = () => {
         <div className="absolute w-full h-[550px] bg-gradient-to-r from-black"></div>
         {movie?.backdrop_path && (
           <img
-            className="w-full h-full object-cover"
+            className="w-full h-full relative object-cover top: 0"
             src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path}`}
             alt={movie?.title}
           />
