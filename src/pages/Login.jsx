@@ -24,7 +24,7 @@ const Login = () => {
   return (
     <div className="w-full h-screen">
       <img
-        className="hidden sm:block absolute w-full h-full oject-cover"
+        className="hidden sm:block absolute w-full h-full top-0 object-cover"
         src="https://assets.nflxext.com/ffe/siteui/vlv3/2e884ce2-da1c-4501-ab9a-10c534d30975/96955d63-0bb3-452c-a226-67c595f275b9/US-en-20230327-popsignuptwoweeks-perspective_alpha_website_small.jpg"
         alt="/"
       />
